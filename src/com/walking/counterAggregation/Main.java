@@ -1,5 +1,6 @@
 package com.walking.counterAggregation;
-import java.util.Scanner;
+
+import static com.walking.counterAggregation.CounterService.COUNTER_LIST;
 /*Counter
 - хранит название счетчика и его значение,
 - единицы измерения
@@ -17,43 +18,50 @@ Main
 main();
 
 - создание счетчиков
-приватный метод, который позволяет вывести значения счетчиков в виде: <Название счетчика>: <Значение счетчика>. */
+- приватный метод, который позволяет вывести значения счетчиков в виде: <Название счетчика>: <Значение счетчика>. */
 public class Main {
     public static void main(String[] args) {
-        //Counter counter = new Counter(ConfNewCounter.createCounterName(), ConfNewCounter.createCounterUnits());
-        System.out.println(new CreateNewCounter("test").createNewCounter());
+        String name = "Beer";
+        String units = "l";
+        //Создаём счётчики
+        Counter[] counter = new Counter[1];
+        counter[0] = new Counter(name, units);
+        CounterService.addCounterToList(counter);
+        counter[0] = new Counter("Cold Water", "m^3");
+        CounterService.addCounterToList(counter);
+        counter[0] = new Counter("Electric", "KWh");
+        CounterService.addCounterToList(counter);
+
+        //Печатаем список всех доступных счётчиков
+        System.out.print(CounterService.getCounterList());
+
+        //Увеличиваем счётчики на заданный шаг
+        CounterService.incrementCounter("Electric", 1);
+        CounterService.incrementCounter("Electric", 1);
+        CounterService.incrementCounter("Cold Water", 18);
+        CounterService.incrementCounter("Beer", 3);
+        CounterService.incrementCounter("Beer", 3);
+
+        //Вывод значений всех счётчиков.
+        PrintAllCounts();
+
+        //Сброс счётчика
+        CounterService.reset("Beer");
+
+        //Доступ к счётчику по названию и вывод его значений.
+        System.out.println(CounterService.accessByName("Beer"));
 
     }
-    public static class ConfNewCounter {
-        String name = createCounterName();
-        String unit = createCounterUnits();
 
-        static Scanner scanner = new Scanner(System.in);
-
-        static String createCounterName() {
-            System.out.print("Enter counter Name: ");
-            return scanner.next();
+        private static String PrintAllCounts (){
+            String result = "";
+            for (int i = 0; i < COUNTER_LIST.length; i++){
+                if (COUNTER_LIST[i] != null) {
+                    System.out.println(COUNTER_LIST[i].getName() + ": " + COUNTER_LIST[i].getCounter() + " " + COUNTER_LIST[i].getUnits());
+                }
+                else return result;
+            }
+            return result;
         }
-        static String createCounterUnits() {
-            System.out.print("Enter counter units: ");
-            return scanner.next();
-        }
-    }
-    public static class CreateNewCounter {
-        String objectName = "0";
-
-        public CreateNewCounter(String objectName){
-            this.objectName = objectName;
-        }
-        public String createNewCounter() {
-            Counter objectName = new Counter(ConfNewCounter.createCounterName(), ConfNewCounter.createCounterUnits());
-                return objectName.getName() + ": " + objectName.getCounter() + objectName.getUnits();
-        }
-    }
-
-    private static String printCounter(){
-        return "0"; //System.out.println(CreateNewCounter.name + ": " + counter1.value + counter1.unit);
-    }
-
 
 }
