@@ -1,6 +1,5 @@
-package com.walking.zoo;
+package com.walking.Task_13;
 
-import java.util.Arrays;
 import java.util.Random;
 
 /*+Задача 1:
@@ -42,8 +41,10 @@ public class Main {
         allUsedAnimals[1] = new Dog();
         allUsedAnimals[2] = new Cow();
 
-
         Animal[] animals = new Animal[32];
+
+
+
         for (int i = 0; i < animals.length; i++) {
             int rand = random.nextInt(3);
             animals[i] = allUsedAnimals[rand];

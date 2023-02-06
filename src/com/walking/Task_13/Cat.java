@@ -1,4 +1,4 @@
-package com.walking.zoo;
+package com.walking.Task_13;
 
 public class Cat extends Animal {
     public static final String NAME = "cat";

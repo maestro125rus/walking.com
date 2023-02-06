@@ -1,4 +1,4 @@
-package com.walking.zoo;
+package com.walking.Task_13;
 
 public class Animal {
     private final String name;
