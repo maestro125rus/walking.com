@@ -9,6 +9,6 @@ public class CorrectFigure {
 
 
     public void printFigure(int lengthOfSide) {
-        System.out.println("You not entered figure or you entered bullshit!");
+        System.out.println();
     }
 }

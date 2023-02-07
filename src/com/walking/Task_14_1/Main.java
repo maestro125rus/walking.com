@@ -22,18 +22,23 @@ import java.util.Scanner;
         lengthOfSide = sc.nextInt();
         sc.close();
 
-        switch (typeOfFigure){
-            case "triangle", "3":
-                figure = new Triangle();
-                figure.printFigure(lengthOfSide);
-                break;
-            case "square", "4":
-                figure = new Square();
-                figure.printFigure(lengthOfSide);
-                break;
-            default:
-                figure = new CorrectFigure();
-                figure.printFigure(lengthOfSide);
+        if (lengthOfSide > 0){
+            switch (typeOfFigure){
+                case "triangle", "3":
+                    figure = new Triangle();
+                    figure.printFigure(lengthOfSide);
+                    break;
+                case "square", "4":
+                    figure = new Square();
+                    figure.printFigure(lengthOfSide);
+                    break;
+                default:
+                    System.out.println("You not entered figure or you entered bullshit!");
+            }
         }
+        else {
+            System.out.println("Side of figure can't less than \"1\"!");
+        }
+
     }
 }
