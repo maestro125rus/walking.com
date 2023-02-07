@@ -1,6 +1,4 @@
 package com.walking.Task_14_1;
-import javax.swing.*;
-import java.awt.*;
 
 import com.walking.Task_14_1.model.CorrectFigure;
 import com.walking.Task_14_1.model.Square;
