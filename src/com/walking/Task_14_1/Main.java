@@ -8,20 +8,18 @@ import java.util.Scanner;
     public class Main { public static void main(String[] args) {
 
         String typeOfFigure;
-        String Str;
         int lengthOfSide;
         CorrectFigure figure;
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Please enter geometric figure type or number of angles: ");
-        Str = sc.nextLine();
-        typeOfFigure = Str.toLowerCase();
+        typeOfFigure = sc.nextLine();
         System.out.print("Please enter length of side: ");
         lengthOfSide = sc.nextInt();
         sc.close();
 
         if (lengthOfSide > 0){
-            switch (typeOfFigure){
+            switch (typeOfFigure.toLowerCase()){
                 case "triangle", "3":
                     figure = new Triangle();
                     figure.printFigure(lengthOfSide);
