@@ -10,5 +10,6 @@ public class CorrectFigure {
 
     public void printFigure(int lengthOfSide) {
         System.out.println();
+
     }
 }

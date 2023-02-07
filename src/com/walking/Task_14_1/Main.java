@@ -39,6 +39,5 @@ import java.util.Scanner;
         else {
             System.out.println("Side of figure can't less than \"1\"!");
         }
-
     }
 }
