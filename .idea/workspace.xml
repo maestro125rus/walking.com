@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8abd2f5e-b870-4735-b435-8fa1e1d59165" name="Changes" comment="Done">
-      <change afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/CorrectFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8abd2f5e-b870-4735-b435-8fa1e1d59165" name="Changes" comment="Square - done.">
+      <change beforePath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1675280720832" duration="2377000" />
       <workItem from="1675284643369" duration="290000" />
       <workItem from="1675284944882" duration="660000" />
-      <workItem from="1675285658729" duration="58096000" />
+      <workItem from="1675285658729" duration="58638000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1674842070351</created>
@@ -181,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675719254095</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Square - done.">
+      <created>1675727541544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675727541544</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Square - done.">
+      <created>1675727557637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675727557637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <MESSAGE value="Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done" />
+    <MESSAGE value="Square - done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Square - done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
