@@ -3,8 +3,6 @@ package com.walking.Task_14_1;
 import com.walking.Task_14_1.model.CorrectFigure;
 import com.walking.Task_14_1.model.Square;
 import com.walking.Task_14_1.model.Triangle;
-
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -32,7 +30,8 @@ public class Main {
                 figure.printFigure(lengthOfSide);
                 break;
             default:
-                System.out.println("Not correct figure!");
+                figure = new CorrectFigure();
+                figure.printFigure(lengthOfSide);
         }
     }
 }

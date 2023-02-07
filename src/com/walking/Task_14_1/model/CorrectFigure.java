@@ -11,7 +11,7 @@ public class CorrectFigure {
 
 
     public void printFigure(int lengthOfSide){
-        System.out.println();
+        System.out.println("You not entered figure or you entered bullshit!");
     }
         public String getSQUARE_VERTICAL(){
             return VERTICAL_LINE;
