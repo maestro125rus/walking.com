@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/walking/Task_14_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/CorrectFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/CorrectFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/walking/Task_14_1/model/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <workItem from="1675280720832" duration="2377000" />
       <workItem from="1675284643369" duration="290000" />
       <workItem from="1675284944882" duration="660000" />
-      <workItem from="1675285658729" duration="59870000" />
+      <workItem from="1675285658729" duration="66177000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1674842070351</created>
@@ -206,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675728200434</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Передал ответственность печати &quot;incorrect figure&quot; в родительский класс.">
+      <created>1675729298357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675729298357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Передал ответственность печати &quot;incorrect figure&quot; в родительский класс.">
+      <created>1675729306356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675729306356</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

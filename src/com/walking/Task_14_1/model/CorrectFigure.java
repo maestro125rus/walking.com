@@ -8,25 +8,7 @@ public class CorrectFigure {
     protected final String FIGURE_INSIDE_SPACE = " ";
 
 
-
-
-    public void printFigure(int lengthOfSide){
+    public void printFigure(int lengthOfSide) {
         System.out.println("You not entered figure or you entered bullshit!");
     }
-        public String getSQUARE_VERTICAL(){
-            return VERTICAL_LINE;
-        }
-        public String getHORIZONTAL() {
-            return HORIZONTAL_LINE;
-            }
-        public String getTRIANGLE_LEFT() {
-            return TRIANGLE_LEFT;
-            }
-        public String getTRIANGLE_RIGHT(){
-            return TRIANGLE_RIGHT;
-            }
-        public String getFIGURE_INSIDE_SPACE(){
-            return FIGURE_INSIDE_SPACE;
-            }
-
 }

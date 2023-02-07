@@ -1,14 +1,16 @@
 package com.walking.Task_14_1;
+import javax.swing.*;
+import java.awt.*;
 
 import com.walking.Task_14_1.model.CorrectFigure;
 import com.walking.Task_14_1.model.Square;
 import com.walking.Task_14_1.model.Triangle;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+    public class Main { public static void main(String[] args) {
+
         String typeOfFigure;
-        String Str = "";
+        String Str;
         int lengthOfSide;
         CorrectFigure figure;
         Scanner sc = new Scanner(System.in);
